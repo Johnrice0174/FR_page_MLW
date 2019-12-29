@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Oeuvres Litteraires</title>
+	<!-- <link rel="icon" href="https://zupimages.net/up/19/45/3xvl.png" type="image/gif" sizes="16x16"> -->
+	<link rel="icon" href="https://zupimages.net/up/19/45/6025.jpg" type="image/gif" sizes="22x22">
+	<link rel="stylesheet" type="text/css" href="Oeuvres_Litteraires.css">
+</head>
+  <body id="presbody">
+<!------------------- HEADER SECTION --------------->
+
+    <header id="band_acc">
+      <a href="Oeuvres_Litteraires.html" class="Accueil"><img src="https://zupimages.net/up/19/45/zzpa.jpg" width="170"></a>
+      <h1 id='acctitle'>Mes Oeuvres Littéraires</h1>
+
+      <div class="container"> <!-- Placé le Container ici fait que la barre de navigation est CENTRÉE-->
+      <nav class="navbar navbar-default navbar-inverse">
+      <div class="container"> <!-- pour eviter que cela soit collé aux bords de pages -->
+
+       <ul class="headernavbar">
+	        <li><a id="navpres" class="hovereffect" href="#">Préface</a></li>
+	        <li><a class="hovereffect" href="#">Chroniques</a></li>
+	        <li><a class="hovereffect" href="#">Talmud</a></li>
+	        <li><a class="hovereffect" href="#">Contact</a></li>
+            <li class="lang">
+            	<div class="dropdown">
+				  	<button onclick="myFunction()" class="dropbtn hovereffect">Langue</button>
+				  	<div id="myDropdown" class="dropdown-content">
+				   	    <a href="C:\Users\Administrateur\OneDrive\Bureau\Mes_Oeuvres\PROJECTS\OEUVRES_LITTERAIRES\Englishpage\My_Literary_Works.html">English</a>
+				  	 	<a href="C:\Users\Administrateur\OneDrive\Bureau\Mes_Oeuvres\PROJECTS\OEUVRES_LITTERAIRES\Hebrewpage\Avodot_Hasifrutit.html">עברית</a>
+				  	    <a href="C:/Users/Administrateur/OneDrive/Bureau/Mes_Oeuvres/PROJECTS/OEUVRES_LITTERAIRES/Arabicpage/Alaamalel.html">عربيه</a>
+				  </div>
+				</div>
+			</li>
+       </ul>
+
+        </div>
+     </nav>
+      </div> <!-- dans le cas de navbar CENTRÉE -->
+    </header>
+
+	<script type="text/javascript">
+		alert("En appuyant sur OK vous reconnaissez avoir lu et approuvé les regles suivantes :\n" + "1) Tous Droits Réservés Par la Loi du Copyright. Tout Copiage, Partage et Appropriation des textes est passible d'une condamnation. (Art. L111-1, L112-2, L112-3, L-122-4, 122-5, L335-2, L335-3, 335-4 CodePropIntellect. Et Art. 27.2 DUDH)\n" + "2) Les oeuvres dites FICTIVES sont FICTIVES et ne portent aucunement atteinte aux religions et aux croyances, aucune poursuite judiciaire ne saurait être justifiée du fait que vous reconnaissez le caractère fictif des textes concernés\n" + "3) Lorsque les espaces commentaires seront activés vous vous tenez responsables de vos propos et nous ne sommes pas coupables de vos choix de langage\n" + "4) Ces règles sont non-exhaustives et sont soumises à modification\n")
+
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+		  document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn')) {
+		    var dropdowns = document.getElementsByClassName("dropdown-content");
+		    var i;
+		    for (i = 0; i < dropdowns.length; i++) {
+		      var openDropdown = dropdowns[i];
+		      if (openDropdown.classList.contains('show')) {
+		        openDropdown.classList.remove('show');
+		      }
+		    }
+		  }
+		}
+	</script>
+</body>
+</html>

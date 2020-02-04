@@ -112,6 +112,51 @@ button:hover{
   margin: 0px 20% 60px 20%;
 }
 
+#Chroniques{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4em;
+  margin: 2px 0px 4px 0px;
+  margin-left: 10%;
+  color: #ff9900;
+}
+#chrod1{
+  font-family: 'Vollkorn', serif;
+  margin: 0px 20% 60px 20%;
+}
+
+#Talmud{
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 4em;
+  margin: 2px 0px 4px 0px;
+  margin-left: 10%;
+  color: #ff9900;
+}
+#tald1{
+  font-family: 'Philosopher', sans-serif;
+  margin: 0px 20% 60px 20%;
+}
+#tald1 h1{
+  font-family: 'Merienda One', cursive;
+  text-align: center;
+  color: #ff6600;
+}
+#tald1 legend{
+  font-family: 'Merienda', cursive;
+  text-align: center;
+  color: #cc3300;
+  font-size: 1.5em;
+}
+
+#tald2{
+  font-family: 'Philosopher', sans-serif;
+  margin: 0px 20% 60px 20%;
+}
+#tald2 legend{
+  font-family: 'Merienda', cursive;
+  text-align: center;
+  color: #cc3300;
+  font-size: 1.5em;
+}
 
 /*--------------FOOTER------------ */
 #sticky-footer {

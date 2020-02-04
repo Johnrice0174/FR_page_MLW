@@ -96,3 +96,28 @@ button:hover{
 }
 .dropdown a:hover {background-color: #ddd;}
 .show {display: block;}
+
+
+/*------------ MAIN CONTENT -------------*/
+
+#Preface{
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 4em;
+  margin: 2px 0px 4px 0px;
+  margin-left: 10%;
+  color: #ff9900;
+}
+#prefp{
+  font-family: 'Vollkorn', serif;
+  margin: 0px 20% 60px 20%;
+}
+
+
+/*--------------FOOTER------------ */
+#sticky-footer {
+  background-color: black;
+  padding: 4px 0px 4px 0px;
+}
+.text-center{
+  padding-left: 35%;
+}

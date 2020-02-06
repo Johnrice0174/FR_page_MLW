@@ -158,6 +158,35 @@ button:hover{
   font-size: 1.5em;
 }
 
+
+#Divers{
+  font-family: 'Girassol', cursive;
+  font-size: 4em;
+  margin: 2px 0px 4px 0px;
+  margin-left: 10%;
+  color: #009900;
+}
+#div1{
+  font-family: 'Taviraj', serif;
+  margin: 0px 20% 60px 20%;
+}
+#div1 legend{
+  font-family: 'Rancho', cursive;
+  text-align: center;
+  color: #0099cc;
+  font-size: 1.5em;
+}
+#div2{
+  font-family: 'Taviraj', serif;
+  margin: 0px 20% 60px 20%;
+}
+#div2 legend{
+  font-family: 'Rancho', cursive;
+  text-align: center;
+  color: #0099cc;
+  font-size: 1.5em;
+}
+
 /*--------------FOOTER------------ */
 #sticky-footer {
   background-color: black;

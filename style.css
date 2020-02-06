@@ -15,7 +15,7 @@ body {
   color: #e6b800;
     margin-top: 0;
     margin-bottom: 0px;
-    margin-left: 30%;
+    margin-left: 25%;
   padding-bottom: 2px;
   display: inline-block;
   font-size: 40px;
@@ -97,7 +97,6 @@ button:hover{
 .dropdown a:hover {background-color: #ddd;}
 .show {display: block;}
 
-
 /*------------ MAIN CONTENT -------------*/
 
 #Preface{
@@ -123,6 +122,33 @@ button:hover{
   font-family: 'Vollkorn', serif;
   margin: 0px 20% 60px 20%;
 }
+#chrod1 legend{
+  font-family: 'Fondamento', cursive;
+  text-align: center;
+  color: #cc3300;
+  font-size: 1.5em;
+}
+#chrod2{
+  font-family: 'Vollkorn', serif;
+  margin: 0px 20% 60px 20%;
+}
+#chrod2 legend{
+  font-family: 'Fondamento', cursive;
+  text-align: center;
+  color: #cc3300;
+  font-size: 1.5em;
+}
+#chrod3{
+  font-family: 'Vollkorn', serif;
+  margin: 0px 20% 60px 20%;
+}
+#chrod3  legend{
+  font-family: 'Fondamento', cursive;
+  text-align: center;
+  color: #cc3300;
+  font-size: 1.5em;
+}
+
 
 #Talmud{
   font-family: 'Uncial Antiqua', cursive;
@@ -186,6 +212,7 @@ button:hover{
   color: #0099cc;
   font-size: 1.5em;
 }
+
 
 /*--------------FOOTER------------ */
 #sticky-footer {

@@ -158,6 +158,16 @@ button:hover{
   color: #cc3300;
   font-size: 1.5em;
 }
+#chrod5{
+  font-family: 'Vollkorn', serif;
+  margin: 0px 20% 60px 20%;
+}
+#chrod5 legend{
+  font-family: 'Fondamento', cursive;
+  text-align: center;
+  color: #cc3300;
+  font-size: 1.5em;
+}
 
 
 #Talmud{

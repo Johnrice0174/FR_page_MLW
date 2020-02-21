@@ -272,7 +272,36 @@ button:hover{
   color: #0099cc;
   font-size: 1.5em;
 }
-
+#div3{
+  font-family: 'Taviraj', serif;
+  margin: 0px 20% 60px 20%;
+}
+#div3 legend{
+  font-family: 'Rancho', cursive;
+  text-align: center;
+  color: #0099cc;
+  font-size: 1.5em;
+}
+#div4{
+  font-family: 'Taviraj', serif;
+  margin: 0px 20% 60px 20%;
+}
+#div4 legend{
+  font-family: 'Rancho', cursive;
+  text-align: center;
+  color: #0099cc;
+  font-size: 1.5em;
+}
+#div5{
+  font-family: 'Taviraj', serif;
+  margin: 0px 20% 60px 20%;
+}
+#div5 legend{
+  font-family: 'Rancho', cursive;
+  text-align: center;
+  color: #0099cc;
+  font-size: 1.5em;
+}
 
 /*--------------FOOTER------------ */
 #sticky-footer {

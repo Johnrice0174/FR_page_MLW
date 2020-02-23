@@ -33,9 +33,9 @@
 	        <li>
 	        	<div class="dropdowntal">
 				  	<button onclick="myFunction()" class="dropbtntal hovereffect">Talmud</button>
-				  	<div id="myDropdown" class="dropdowntal-content">
+				  	<div id="myDropdowntal" class="dropdowntal-content">
 				   	    <a href="#Talmud">Recueil</a>
-				  	 	<a href="#tald1">Traité Tefiloth 1a</a>
+				  	    <a href="#tald1">Traité Tefiloth 1a</a>
 				  	    <a href="#tald2">Traité Makot 1b</a>
 				  	</div>
 				</div>
@@ -493,6 +493,24 @@
 		      var openDropdown = dropdowns[i];
 		      if (openDropdown.classList.contains('show')) {
 		        openDropdown.classList.remove('show');
+		      }
+		    }
+		  }
+		}
+		
+		/* for Talmud Dropdown */
+		function myFunction() {
+		  document.getElementById("myDropdowntal").classList.toggle("showtal");
+		}
+		
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtntal')) {
+		    var dropdowns = document.getElementsByClassName("dropdowntal-content");
+		    var i;
+		    for (i = 0; i < dropdowns.length; i++) {
+		      var openDropdown = dropdowns[i];
+		      if (openDropdown.classList.contains('showtal')) {
+		        openDropdown.classList.remove('showtal');
 		      }
 		    }
 		  }

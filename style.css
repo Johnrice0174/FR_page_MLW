@@ -118,7 +118,7 @@ button:hover{
   display: block;
 }
 .dropdowntal a:hover {background-color: #ddd;}
-.show {display: block;}
+.showtal {display: block;}
 .dropbtntal {
   background-color: grey;
   color: white;

@@ -29,7 +29,7 @@ header img{
 ul {
   list-style-type: none;
   margin: 0;
-	margin-left: 10%;
+  margin-left: 10%;
   padding: 0;
   text-align: center;
 }
@@ -65,7 +65,7 @@ li:hover .hovereffect{
   font-size: 25px;
   border: none;
   cursor: pointer;
-  margin-left: 350px;
+  margin-left: 300px;
 }
 button{
   background-color: grey;

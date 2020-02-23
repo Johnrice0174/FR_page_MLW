@@ -119,6 +119,14 @@ button:hover{
 }
 .dropdowntal a:hover {background-color: #ddd;}
 .show {display: block;}
+.dropbtntal {
+  background-color: grey;
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
 /*------------ MAIN CONTENT -------------*/
 
 #Preface{

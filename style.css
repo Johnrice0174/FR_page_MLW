@@ -29,12 +29,13 @@ header img{
 ul {
   list-style-type: none;
   margin: 0;
+	margin-left: 10%;
   padding: 0;
   text-align: center;
 }
 li {
   display: inline;
-  padding: 30px;
+  padding: 20px;
   margin-top: 0px;
 }
 ul a{

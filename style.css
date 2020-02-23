@@ -15,7 +15,7 @@ body {
   color: #e6b800;
     margin-top: 0;
     margin-bottom: 0px;
-    margin-left: 30%;
+    margin-left: 25%;
   padding-bottom: 2px;
   display: inline-block;
   font-size: 40px;
@@ -34,7 +34,7 @@ ul {
 }
 li {
   display: inline;
-  padding: 20px;
+  padding: 30px;
   margin-top: 0px;
 }
 ul a{

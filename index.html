@@ -513,6 +513,24 @@
 		  }
 		}
 		
+		/* for Chronicles dropdown */
+		function funcChr() {
+		  document.getElementById("myDropdownchr").classList.toggle("showchr");
+		}			
+
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtnchr')) {
+		    var dropdowns = document.getElementsByClassName("dropdownchr-content");
+		    var i;
+		    for (i = 0; i < dropdowns.length; i++) {
+		      var openDropdown = dropdowns[i];
+		      if (openDropdown.classList.contains('showchr')) {
+		        openDropdown.classList.remove('showchr');
+		      }
+		    }
+		  }
+		}		
+		
 		/* for Talmud Dropdown */
 		function funcTal() {
 		  document.getElementById("myDropdowntal").classList.toggle("showtal");

@@ -32,7 +32,7 @@
 	        <li>
 	        	<div class="dropdownchr">
 				  	<button onclick="funcChr()" class="dropbtnchr hovereffect">Chroniques</button>
-				  	<!--<div id="myDropdownchr" class="dropdownchr-content">
+				  	<div id="myDropdownchr" class="dropdownchr-content">
 				   	    <a href="#Chroniques">Recueil</a>
 				  	 	<a href="#chrod1">Récit 1</a>
 				  	    <a href="#chrod2">Récit 2</a>
@@ -43,7 +43,7 @@
 				  	    <a href="#chrod7">Récit 7- Sorcière</a>
 				  	    <a href="#chrod8">Récit 8- Arabe courageuse</a>
 				  	    <a href="#chrod9">Récit 9- Patience,Sagesse...</a>
-				  	</div>-->
+				  	</div>
 				</div>
 	        </li>
 	        <li>
@@ -502,10 +502,10 @@
 		// Close the dropdown if the user clicks outside of it
 		window.onclick = function(event) {
 		  if (!event.target.matches('.dropbtn')) {
-		    var dropdowns = document.getElementsByClassName("dropdown-content");
+		    var dropdowns_lg = document.getElementsByClassName("dropdown-content");
 		    var i;
-		    for (i = 0; i < dropdowns.length; i++) {
-		      var openDropdown = dropdowns[i];
+		    for (i = 0; i < dropdowns_lg.length; i++) {
+		      var openDropdown = dropdowns_lg[i];
 		      if (openDropdown.classList.contains('show')) {
 		        openDropdown.classList.remove('show');
 		      }
@@ -517,13 +517,13 @@
 		function funcChr() {
 		  document.getElementById("myDropdownchr").classList.toggle("showchr");
 		}			
-
+		// Close the dropdown if the user clicks outside of it
 		window.onclick = function(event) {
 		  if (!event.target.matches('.dropbtnchr')) {
-		    var dropdowns = document.getElementsByClassName("dropdownchr-content");
+		    var dropdowns_ch = document.getElementsByClassName("dropdownchr-content");
 		    var i;
-		    for (i = 0; i < dropdowns.length; i++) {
-		      var openDropdown = dropdowns[i];
+		    for (i = 0; i < dropdowns_ch.length; i++) {
+		      var openDropdown = dropdowns_ch[i];
 		      if (openDropdown.classList.contains('showchr')) {
 		        openDropdown.classList.remove('showchr');
 		      }
@@ -535,13 +535,13 @@
 		function funcTal() {
 		  document.getElementById("myDropdowntal").classList.toggle("showtal");
 		}			
-
+		// Close the dropdown if the user clicks outside of it
 		window.onclick = function(event) {
 		  if (!event.target.matches('.dropbtntal')) {
-		    var dropdowns = document.getElementsByClassName("dropdowntal-content");
+		    var dropdowns_tl = document.getElementsByClassName("dropdowntal-content");
 		    var i;
-		    for (i = 0; i < dropdowns.length; i++) {
-		      var openDropdown = dropdowns[i];
+		    for (i = 0; i < dropdowns_tl.length; i++) {
+		      var openDropdown = dropdowns_tl[i];
 		      if (openDropdown.classList.contains('showtal')) {
 		        openDropdown.classList.remove('showtal');
 		      }

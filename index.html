@@ -506,12 +506,9 @@
 	<script type="text/javascript">
 		alert("En appuyant sur OK vous reconnaissez avoir lu et approuvé les regles suivantes :\n" + "1) Tous Droits Réservés Par la Loi du Copyright. Tout Copiage, Partage et Appropriation des textes est passible d'une condamnation. (Art. L111-1, L112-2, L112-3, L-122-4, 122-5, L335-2, L335-3, 335-4 CodePropIntellect. Et Art. 27.2 DUDH)\n" + "2) Les oeuvres dites FICTIVES sont FICTIVES et ne portent aucunement atteinte aux religions et aux croyances, aucune poursuite judiciaire ne saurait être justifiée du fait que vous reconnaissez le caractère fictif des textes concernés\n" + "3) Lorsque les espaces commentaires seront activés vous vous tenez responsables de vos propos et nous ne sommes pas coupables de vos choix de langage\n" + "4) Ces règles sont non-exhaustives et sont soumises à modification\n")
 
-		/* When the user clicks on the button, 
-		toggle between hiding and showing the dropdown content */
 		function funcLang() {
 		  document.getElementById("myDropdown").classList.toggle("show");
 		}
-
 		// Close the dropdown if the user clicks outside of it
 		window.onclick = function(event) {
 		  if (!event.target.matches('.dropbtn')) {
@@ -530,7 +527,7 @@
 		function funcChr() {
 		  document.getElementById("myDropdownchr").classList.toggle("showchr");
 		}			
-
+		// Close the dropdown if the user clicks outside of it
 		window.onclick = function(event) {
 		  if (!event.target.matches('.dropbtnchr')) {
 		    var dropdowns = document.getElementsByClassName("dropdownchr-content");
@@ -548,7 +545,7 @@
 		function funcTal() {
 		  document.getElementById("myDropdowntal").classList.toggle("showtal");
 		}			
-
+		// Close the dropdown if the user clicks outside of it	
 		window.onclick = function(event) {
 		  if (!event.target.matches('.dropbtntal')) {
 		    var dropdowns = document.getElementsByClassName("dropdowntal-content");
@@ -557,6 +554,24 @@
 		      var openDropdown = dropdowns[i];
 		      if (openDropdown.classList.contains('showtal')) {
 		        openDropdown.classList.remove('showtal');
+		      }
+		    }
+		  }
+		}
+
+				/* for Divers dropdown */
+		function funcDiv() {
+		  document.getElementById("myDropdowndiv").classList.toggle("showdiv");
+		}			
+		// Close the dropdown if the user clicks outside of it	
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtndiv')) {
+		    var dropdowns_dv = document.getElementsByClassName("dropdowntal-content");
+		    var i;
+		    for (i = 0; i < dropdowns_dv.length; i++) {
+		      var openDropdown_dv = dropdowns_dv[i];
+		      if (openDropdown_dv.classList.contains('showdiv')) {
+		        openDropdown_dv.classList.remove('showdiv');
 		      }
 		    }
 		  }

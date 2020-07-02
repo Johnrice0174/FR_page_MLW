@@ -56,8 +56,20 @@
 				  	</div>
 				</div>
 	        </li>
-	        <li><a class="hovereffect" href="#Divers">Divers</a></li>
-	        <li><a class="hovereffect" href="#">Contact</a></li>
+	        <li>
+	        	<div class="dropdowndiv">
+				  	<button onclick="funcDiv()" class="dropbtndiv hovereffect">Divers</button>
+				  	<div id="myDropdowndiv" class="dropdowndiv-content">
+				   	    <a href="#Divers">Recueil</a>
+				  	 	<a href="#div1">Philosophie - Réflexion sur l'Écriture et l'Art</a>
+				  	    <a href="#div2">Rap - Indigné - AJKD</a>
+				  	 	<a href="#div3">Rap - Liberté, Égalité, Fraternité - AJKD</a>
+				  	    <a href="#div4">Poème - Sentiments Contradictoires / Antithèse à l'état pur - AJKD</a>
+				  	    <a href="#div5">Poème - Vers d'amour - AJKD</a>  	    
+				  	</div>
+				</div>
+	        </li>
+	        <li><a class="hovereffect" href="#contact">Contact</a></li>
             <li class="lang">
             	<div class="dropdown">
 				  	<button onclick="funcLang()" class="dropbtn hovereffect">Langue</button>
@@ -484,8 +496,9 @@
 
     <footer id="sticky-footer" class="py-4 bg-dark-100 text-white-50">
         <div class="container text-center">
-            <li style="color: white;">&copy; Copyright JohnRice &middot; Developers Institute<img src="https://3gwtod2hg0th1ikege3y0nok-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/43414_13872664_617366981756712_7499470743120503306_n.png" width="20" height="20"> &middot; All rights reserved ...</li>
+            <li style="color: white;">&copy; Copyright JohnRiceProg &middot; Developers Institute<img src="https://3gwtod2hg0th1ikege3y0nok-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/43414_13872664_617366981756712_7499470743120503306_n.png" width="20" height="20"> &middot; All rights reserved ...</li>
         	<!--<li><a href="https://textup.fr/394997Zo"><label>CGU</label></a> and <a href="https://textup.fr/396485C2"><label>TOS</label></a></li>-->
+        	<li style="color: white;"><b id="contact">Contact:</b> <em>johnrice.rapper@gmail.com</em></li>
         </div>
     </footer>
 
@@ -502,10 +515,10 @@
 		// Close the dropdown if the user clicks outside of it
 		window.onclick = function(event) {
 		  if (!event.target.matches('.dropbtn')) {
-		    var dropdowns_lg = document.getElementsByClassName("dropdown-content");
+		    var dropdowns = document.getElementsByClassName("dropdown-content");
 		    var i;
-		    for (i = 0; i < dropdowns_lg.length; i++) {
-		      var openDropdown = dropdowns_lg[i];
+		    for (i = 0; i < dropdowns.length; i++) {
+		      var openDropdown = dropdowns[i];
 		      if (openDropdown.classList.contains('show')) {
 		        openDropdown.classList.remove('show');
 		      }
@@ -517,13 +530,13 @@
 		function funcChr() {
 		  document.getElementById("myDropdownchr").classList.toggle("showchr");
 		}			
-		// Close the dropdown if the user clicks outside of it
+
 		window.onclick = function(event) {
 		  if (!event.target.matches('.dropbtnchr')) {
-		    var dropdowns_ch = document.getElementsByClassName("dropdownchr-content");
+		    var dropdowns = document.getElementsByClassName("dropdownchr-content");
 		    var i;
-		    for (i = 0; i < dropdowns_ch.length; i++) {
-		      var openDropdown = dropdowns_ch[i];
+		    for (i = 0; i < dropdowns.length; i++) {
+		      var openDropdown = dropdowns[i];
 		      if (openDropdown.classList.contains('showchr')) {
 		        openDropdown.classList.remove('showchr');
 		      }
@@ -535,13 +548,13 @@
 		function funcTal() {
 		  document.getElementById("myDropdowntal").classList.toggle("showtal");
 		}			
-		// Close the dropdown if the user clicks outside of it
+
 		window.onclick = function(event) {
 		  if (!event.target.matches('.dropbtntal')) {
-		    var dropdowns_tl = document.getElementsByClassName("dropdowntal-content");
+		    var dropdowns = document.getElementsByClassName("dropdowntal-content");
 		    var i;
-		    for (i = 0; i < dropdowns_tl.length; i++) {
-		      var openDropdown = dropdowns_tl[i];
+		    for (i = 0; i < dropdowns.length; i++) {
+		      var openDropdown = dropdowns[i];
 		      if (openDropdown.classList.contains('showtal')) {
 		        openDropdown.classList.remove('showtal');
 		      }
